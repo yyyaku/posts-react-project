@@ -39,3 +39,26 @@
   opacity: 0;
   transition: opacity 500ms ease-in;
 }
+
+.page__wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin: 15px 0;
+}
+
+.page {
+  padding: 5px 15px;
+  color: teal;
+  font-size: 14px;
+  background-color: transparent;
+  border: 1px solid teal;
+  cursor: pointer;
+}
+
+.page__current {
+  border: 2px solid orange;
+  font-weight: bold;
+}
